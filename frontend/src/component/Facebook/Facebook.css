@@ -1,0 +1,27 @@
+.social-icons {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0; /* Couleur de fond grise */
+    padding: 10px; /* Espace intérieur autour des icônes */
+    border-radius: 5px; /* Coins arrondis */
+  }
+  
+  .icon {
+    width: 40px; /* Largeur des icônes */
+    height: 40px; /* Hauteur des icônes */
+  }
+  
+  /* Ajoutez de la marge à droite pour l'icône Facebook */
+  .facebook-icon {
+    margin-right: 10px; /* Espace entre l'icône Facebook et l'icône Gmail */
+  }
+  
+  .email {
+    display: flex;
+    align-items: center;
+  }
+  
+  .email span {
+    margin-left: 5px; /* Espace entre l'icône Gmail et le texte de l'e-mail */
+  }
+  
