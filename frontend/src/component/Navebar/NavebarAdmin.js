@@ -1,19 +1,12 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav';
-// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 
 
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navebar.css'
-import { useSelector } from 'react-redux';
-// import { Navigate } from 'react-router-dom';cd
-// import Acceuil from '../../pages/acceuil/Acceuil';
 
 const Navebar = () => {
-
-  const { admin} = useSelector(state => state.AdminReducer);
-
   return (
     <div>
 
@@ -24,10 +17,7 @@ const Navebar = () => {
        <div>
 
           <Nav className="me-auto">
-         
-
           <Nav.Link href="/">Acceuil</Nav.Link>
-
 
            
             <NavDropdown title="Produits" id="basic-nav-dropdown">
@@ -68,7 +58,8 @@ const Navebar = () => {
             </NavDropdown>
 
             <Nav.Link href="/contact">Contact</Nav.Link>
-           { admin && (<Nav.Link href="/PageAdmin">Admin</Nav.Link> ) }
+
+            <Nav.Link >Log Out</Nav.Link>
 
           </Nav>
   

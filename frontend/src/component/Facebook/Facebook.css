@@ -1,27 +1,50 @@
-.social-icons {
-    display: flex;
-    align-items: center;
-    background-color: #f0f0f0; /* Couleur de fond grise */
-    padding: 10px; /* Espace intérieur autour des icônes */
-    border-radius: 5px; /* Coins arrondis */
-  }
+.contact-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  color: #333;
+  margin: 0 10px; /* Espacement entre les icônes */
+}
+
+.icon svg {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.icon span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Style pour l'icône Facebook */
+.facebook-icon:hover {
+  color: #1877f2;
+  font-size: 36px;
+  cursor: pointer;
+}
+/* Style pour l'icône de localisation */
+.location-icon:hover {
+  color: #1877f2; /* Couleur rouge au survol */
+  cursor: pointer;
+  transform: scale(1.1); /* Agrandissement au survol */
+   /* Transition en douceur */
+}
+
+/* Changer la couleur au survol pour les icônes d'email, de téléphone et de fax */
+.icon:hover {
+  color: #1877f2; /* Couleur rouge au survol */
+  cursor: pointer;
+  transform: scale(1.1); /* Agrandissement au survol */
   
-  .icon {
-    width: 40px; /* Largeur des icônes */
-    height: 40px; /* Hauteur des icônes */
-  }
-  
-  /* Ajoutez de la marge à droite pour l'icône Facebook */
-  .facebook-icon {
-    margin-right: 10px; /* Espace entre l'icône Facebook et l'icône Gmail */
-  }
-  
-  .email {
-    display: flex;
-    align-items: center;
-  }
-  
-  .email span {
-    margin-left: 5px; /* Espace entre l'icône Gmail et le texte de l'e-mail */
-  }
-  
+}
+
+/* Agrandissement au survol pour le texte (adresse) */
+

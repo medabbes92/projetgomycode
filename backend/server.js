@@ -16,7 +16,7 @@ connectDB()
 app.use("/admin" , admin)
 app.use("/product" , product)
 // lunch the server
-const port= 5000;
+const port= 8000;
 
 app.listen(port, (error)=> {
     error? console.log(error)

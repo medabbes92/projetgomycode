@@ -1,11 +1,15 @@
 import React from 'react'
 
 import './Acceuil.css'
+import Navebar from '../../component/Navebar/Navebar'
+import Facebook from '../../component/Facebook/Facebook'
+
 
 const Acceuil = () => {
   return (
     <div>
-        
+        <Navebar />
+        <div style={{marginTop:"112px"}}><Facebook/></div>
 
         <section className='sec1-main'>
             <h1 className='phrasebackground'>

@@ -1,10 +1,11 @@
 import React from 'react'
 import './Projets.css'
+import Navebar from '../../component/Navebar/Navebar'
 
 const Projets = () => {
   return (
     <div> 
-
+<Navebar />
 <section className='sec2-main'>
             <div className='sec2-intro'>
             <div className='sec2-intro-text'>

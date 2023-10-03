@@ -1,9 +1,10 @@
 import React from 'react'
 import './EtudeHydraulique.css'
+import Navebar from '../../component/Navebar/Navebar'
 const EtudeHydraulique = () => {
   return (
     <div>
-
+<Navebar />
 
 <section className='sec2-main'>
             <div className='sec2-intro'>
